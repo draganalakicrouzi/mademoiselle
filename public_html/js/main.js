@@ -26,6 +26,16 @@ $(document).ready(function () {
     });
 // animation end
 
+$('.navbar-nav').on('click', '.toggle-submenu', function(e){
+    e.preventDefault();
+    $(this).toggleClass('fa-plus fa-minus');
+    $(this).parent().next('.submenu').slideToggle();
+});
+
+
+
+
+
 
 /*
 
