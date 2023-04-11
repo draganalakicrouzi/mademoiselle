@@ -9994,6 +9994,23 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 300; }
 
+.section-big-title {
+  font-size: 4rem;
+  line-height: 4.5rem;
+  letter-spacing: 0.5rem;
+  font-family: "Bodoni";
+  color: #fff;
+  width: 100%;
+  max-width: 70.4rem;
+  padding: 2rem 0;
+  text-align: center;
+  margin: 0 auto; }
+  @media (min-width: 992px) {
+    .section-big-title {
+      font-size: 6rem;
+      line-height: 8.2rem;
+      letter-spacing: 2rem; } }
+
 header {
   padding: 3.2rem 0 3.1rem; }
   header .navbar-brand {
@@ -10061,6 +10078,15 @@ header {
       @media (min-width: 992px) {
         header .navbar-nav .nav-item .submenu .nav-link {
           white-space: nowrap; } }
+
+.hero-section {
+  padding: 150px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  @media (min-width: 992px) {
+    .hero-section {
+      padding: 218px 0 269px; } }
 
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license

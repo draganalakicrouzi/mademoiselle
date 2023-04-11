@@ -1,0 +1,9 @@
+.hero-section{
+    padding: 150px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    @media(min-width:992px){
+        padding: 218px 0 269px;
+    }
+}
