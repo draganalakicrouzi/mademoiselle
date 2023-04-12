@@ -5706,6 +5706,9 @@ textarea.form-control-lg {
 .ratio-21x9 {
   --bs-aspect-ratio: calc(9 / 21 * 100%); }
 
+.ratio-3x4 {
+  --bs-aspect-ratio: calc(248 / 372 * 100%); }
+
 .fixed-top {
   position: fixed;
   top: 0;
@@ -9992,13 +9995,15 @@ img {
 
 body {
   font-family: "Lato", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #1E1E1E; }
 
 .section-big-title {
   font-size: 4rem;
   line-height: 4.5rem;
   letter-spacing: 0.5rem;
   font-family: "Bodoni";
+  font-weight: normal;
   color: #fff;
   width: 100%;
   max-width: 70.4rem;
@@ -10010,6 +10015,31 @@ body {
       font-size: 6rem;
       line-height: 8.2rem;
       letter-spacing: 2rem; } }
+
+.section-title {
+  font-size: 2.2rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.5rem;
+  text-align: left;
+  width: 100%;
+  max-width: 70.4rem;
+  font-family: "Bodoni";
+  font-weight: normal;
+  position: relative;
+  padding-bottom: 2rem; }
+  .section-title:after {
+    content: '';
+    background: #ECD9D9;
+    display: block;
+    height: 0.1rem;
+    width: 7.4rem;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+  @media (min-width: 992px) {
+    .section-title {
+      font-size: 3rem;
+      line-height: 4.5rem; } }
 
 header {
   padding: 3.2rem 0 3.1rem; }
@@ -10087,6 +10117,46 @@ header {
   @media (min-width: 992px) {
     .hero-section {
       padding: 218px 0 269px; } }
+
+@media (min-width) {
+  .latest-news {
+    padding: 75px 0 56px; } }
+
+.latest-news h2, .latest-news .h2 {
+  margin-bottom: 1.6rem; }
+  @media (min-width: 992px) {
+    .latest-news h2, .latest-news .h2 {
+      margin-bottom: 4.3rem; } }
+
+.latest-news .news-item div {
+  background-color: #fff;
+  width: 90%;
+  max-width: 31.3rem;
+  padding: 18px 22px 57px 19px;
+  text-align: center;
+  margin-inline: auto;
+  margin-top: -22%;
+  position: relative;
+  z-index: 9999; }
+  .latest-news .news-item div p {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-family: "Bodoni";
+    font-style: italic;
+    width: 8.1rem;
+    margin-bottom: 1.7rem;
+    display: inline-block; }
+  .latest-news .news-item div h2 a, .latest-news .news-item div .h2 a {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    width: 100%;
+    max-width: 27.6rem;
+    text-align: center;
+    color: #1E1E1E !important; }
 
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
