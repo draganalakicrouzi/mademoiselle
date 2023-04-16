@@ -10041,6 +10041,23 @@ body {
       font-size: 3rem;
       line-height: 4.5rem; } }
 
+.btn-more {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05rem;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  border: 1px solid #1E1E1E;
+  width: 100%;
+  max-width: 16.6rem;
+  border-radius: 0; }
+  @media (min-width992px) {
+    .btn-more {
+      padding: 13px 36px 15px; } }
+
 header {
   padding: 3.2rem 0 3.1rem; }
   header .navbar-brand {
@@ -10157,6 +10174,58 @@ header {
     max-width: 27.6rem;
     text-align: center;
     color: #1E1E1E !important; }
+
+.services {
+  padding-bottom: 2rem; }
+  .services .section-title {
+    margin-bottom: 4.6rem; }
+  @media (min-width: 992px) {
+    .services {
+      padding-bottom: 11.1rem; } }
+  .services .services-item {
+    display: flex;
+    flex-direction: row; }
+    .services .services-item .row {
+      margin: 0; }
+    .services .services-item .services-contain {
+      padding: 5rem 9.5rem;
+      background-color: #F5F5F5; }
+      @media (min-width: 992px) {
+        .services .services-item .services-contain {
+          padding: 14.3rem 9.5rem 9.5rem; } }
+      .services .services-item .services-contain h2, .services .services-item .services-contain .h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase; }
+        @media (min-width: 1200px) {
+          .services .services-item .services-contain h2, .services .services-item .services-contain .h2 {
+            font-size: 3.6rem;
+            line-height: 4.4rem;
+            margin-bottom: 3.6rem; } }
+        .services .services-item .services-contain h2 a, .services .services-item .services-contain .h2 a {
+          color: #1E1E1E;
+          width: 100%;
+          max-width: 36.8rem; }
+    .services .services-item .btn:hover {
+      background-color: #565960;
+      color: #ECD9D9; }
+    .services .services-item:nth-of-type(2n) .services-contain {
+      background-color: #ECD9D9; }
+      @media (min-width: 768px) {
+        .services .services-item:nth-of-type(2n) .services-contain {
+          order: 1 !important; } }
+    .services .services-item .services-img {
+      padding: 0; }
+      @media (min-width: 768px) {
+        .services .services-item .services-img {
+          order: 1 !important; } }
+    @media (min-width: 768px) {
+      .services .services-item:nth-of-type(2n) .services-img {
+        order: 0 !important; } }
 
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license

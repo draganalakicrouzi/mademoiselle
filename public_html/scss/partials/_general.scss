@@ -52,3 +52,20 @@ body{
         line-height: 4.5rem;
     }
 }
+.btn-more{
+    font-family: $lato;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.05rem;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: $body-color;
+    border: 1px solid $body-color;
+    width: 100%;
+    max-width: 16.6rem;
+    border-radius: 0;
+    @media(min-width992px){
+        padding: 13px 36px 15px;
+    }
+}
