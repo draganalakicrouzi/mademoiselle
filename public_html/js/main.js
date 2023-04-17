@@ -32,7 +32,17 @@ $('.navbar-nav').on('click', '.toggle-submenu', function(e){
     $(this).parent().next('.submenu').slideToggle();
 });
 
+if($('.testimonals-slider').length > 0){
+    $('.testimonals-slider').owlCarousel({
+        responsive:{
+            0:{
+                items:1
+            }
+        }
+    });
 
+
+}
 
 
 
