@@ -12,11 +12,30 @@ header{
         box-shadow: none!important;
     }
     .navbar-nav{
+        border-bottom: 0.1rem solid $primary;
+        @media(min-width:992px){
+            border-bottom: none!important;
+        }
         .nav-item{
             position: relative;
+            &:not(:last-of-type){
+                border-bottom: 0.1rem solid $primary;
+            }
             @media(min-width:992px){
                 position: relative;
+                &:not(:last-of-type){
+                    border-bottom: none;
+                }
                 &:hover{
+                    &:after{
+                        content: '';
+                        position: absolute;
+                        height: 0.1rem;
+                        top: 96%;
+                        left: 0;
+                        background-color: $primary;
+                        width: 100%;
+                    }
                     .submenu{
                         opacity: 1;
                         transform: rotateX(0) perspective(1000px);
@@ -32,7 +51,6 @@ header{
                 font-weight: 400px;
                 line-height: 1.7rem;
                 text-transform: uppercase;
-                border-bottom: 0.1rem solid $primary;
                 position: relative;
                 .toggle-submenu{
                     position: absolute;
@@ -48,7 +66,6 @@ header{
                     }
                 }
                 @media(min-width:992px){
-                    border-bottom: none;
                     &.active:after{
                         content: '';
                         position: absolute;
@@ -83,5 +100,4 @@ header{
             }
         }
     }
-
 }
