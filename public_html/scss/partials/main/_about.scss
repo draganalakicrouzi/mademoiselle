@@ -1,0 +1,59 @@
+.latest-news{
+    .about-content{
+        h2{
+            font-family: $lato;
+            font-weight: 400;
+            font-size: 2.2rem;
+            line-height: 4rem;
+            text-align: left;
+            color: $body-color;
+            margin-bottom: 2.5rem;
+            @media(min-width:1200px){
+                font-size: 4.4rem;
+                line-height: 5rem;
+            }
+        }
+        p{
+            font-family: $lato;
+            font-weight: 300;
+            font-size: 1.8rem;
+            line-height: 2.6rem;
+            text-align: left;
+            color: $body-color;
+            margin-bottom: 3rem;
+            @media(min-width:1200px){
+                &:first-of-type{
+                    font-size: 2rem;
+                    line-height: 2.8rem;
+                }
+            }
+        }
+        figure{
+            width: 100%;
+            max-width: 74.8rem;
+            margin-bottom: 3rem;
+            @media(min-width:992px){
+                margin-bottom: 6.6rem;
+            }
+        }
+    }
+    .sidebar{
+        .input-group{
+            border: 0.1rem solid $body-color;
+        }
+        .form-control{
+            border: none;
+        }
+        button{
+            border:none;
+            padding-left: 2rem;
+            .fa-solid{
+                font-size: 1.8rem;
+                color: $body-color;
+                width: 0.1rem;
+                transform: rotateY(180deg);
+            }
+        }
+    }
+
+}
