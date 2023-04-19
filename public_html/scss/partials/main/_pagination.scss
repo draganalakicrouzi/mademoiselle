@@ -1,0 +1,21 @@
+.blog-news-pagination{
+    padding: 0.8rem 0 1.7rem;
+    .pagination{
+        text-align: center;
+        .page-link{
+            font-family: $bodoni;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            text-align: center;
+            color: $secondary!important;
+            border: none!important;
+            background-color: $white;
+                border: none!important;
+                box-shadow: none;
+            &:hover,
+                &.active{
+                color: $body-color!important; 
+            }
+        }
+    }
+}
