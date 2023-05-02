@@ -1,0 +1,12 @@
+.company-info{
+    padding: 4rem 0rem;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    @media(min-width:992px){
+        padding: 6.3rem 0 6rem;
+        margin-bottom: 4.6rem;
+    }
+    .company-info-item{
+        color: #766d6d;
+    }
+}

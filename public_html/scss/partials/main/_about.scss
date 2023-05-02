@@ -8,6 +8,8 @@
             text-align: left;
             color: $body-color;
             margin-bottom: 2.5rem;
+            width: 100%;
+            max-width: 37.5rem;
             @media(min-width:1200px){
                 font-size: 4.4rem;
                 line-height: 5rem;

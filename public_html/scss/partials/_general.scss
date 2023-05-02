@@ -37,6 +37,7 @@ body{
     font-weight: normal;
     position: relative;
     padding-bottom: 2rem;
+    text-transform: uppercase;
     &:after{
         content: '';
         background: $primary;

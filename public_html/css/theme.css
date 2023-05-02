@@ -5709,6 +5709,9 @@ textarea.form-control-lg {
 .ratio-3x4 {
   --bs-aspect-ratio: calc(248 / 372 * 100%); }
 
+.ratio-4x5 {
+  --bs-aspect-ratio: 80%; }
+
 .fixed-top {
   position: fixed;
   top: 0;
@@ -10026,7 +10029,8 @@ body {
   font-family: "Bodoni";
   font-weight: normal;
   position: relative;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  text-transform: uppercase; }
   .section-title:after {
     content: '';
     background: #ECD9D9;
@@ -10187,7 +10191,8 @@ header {
     line-height: 2.4rem;
     text-align: center;
     width: 100%;
-    max-width: 27.6rem; }
+    max-width: 27.6rem;
+    text-transform: uppercase; }
     .latest-news .news-item div h2 a, .latest-news .news-item div .h2 a {
       color: #1E1E1E !important;
       display: -webkit-box;
@@ -10296,7 +10301,9 @@ header {
   line-height: 4rem;
   text-align: left;
   color: #1E1E1E;
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem;
+  width: 100%;
+  max-width: 37.5rem; }
   @media (min-width: 1200px) {
     .latest-news .about-content h2, .latest-news .about-content .h2 {
       font-size: 4.4rem;
@@ -10371,7 +10378,8 @@ header {
       line-height: 2.4rem;
       text-align: center;
       width: 100%;
-      max-width: 27.6rem; }
+      max-width: 27.6rem;
+      text-transform: uppercase; }
       .blog-news .blog-news-item div h2 a, .blog-news .blog-news-item div .h2 a {
         color: #1E1E1E !important;
         display: -webkit-box;
@@ -10395,6 +10403,287 @@ header {
       box-shadow: none; }
       .blog-news-pagination .pagination .page-link:hover, .blog-news-pagination .pagination .page-link.active {
         color: #1E1E1E !important; }
+
+.news-hero-section {
+  padding: 5rem 0; }
+  @media (min-width: 992px) {
+    .news-hero-section {
+      padding: 16.5rem 0 9.7rem; } }
+  .news-hero-section .news-categories {
+    font-family: "Bodoni";
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: left;
+    color: #1E1E1E; }
+    .news-hero-section .news-categories a,
+    .news-hero-section .news-categories span {
+      display: inline-block;
+      color: #1E1E1E; }
+    .news-hero-section .news-categories p {
+      font-style: italic;
+      display: inline-block; }
+  .news-hero-section .news-title {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 4rem;
+    text-align: left;
+    color: #1E1E1E;
+    width: 100%;
+    max-width: 43.2rem;
+    text-transform: uppercase; }
+    @media (min-width: 1200px) {
+      .news-hero-section .news-title {
+        font-size: 4.4rem;
+        line-height: 5rem; } }
+
+.single-news-data {
+  padding: 3.5rem 0; }
+  @media (min-width: 992px) {
+    .single-news-data {
+      padding: 9.7rem 0 4.1rem; } }
+  .single-news-data .single-news-content p {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    text-align: justify;
+    margin-bottom: 2rem; }
+    @media (min-width: 992px) {
+      .single-news-data .single-news-content p {
+        margin-bottom: 5.2rem; } }
+  .single-news-data .tags-wrapper {
+    font-family: "Bodoni";
+    line-height: 2.7rem; }
+    .single-news-data .tags-wrapper p {
+      font-style: italic; }
+    .single-news-data .tags-wrapper a {
+      color: #1E1E1E;
+      background-color: #F5F5F5;
+      padding: 0 2rem 0.5rem 2rem;
+      text-align: center; }
+      .single-news-data .tags-wrapper a:not(:last-of-type) {
+        margin-right: 2.2rem; }
+
+.services-section {
+  padding: 3.5rem 0; }
+  @media (min-width: 992px) {
+    .services-section {
+      padding: 8.8rem 0 3.7rem; } }
+  .services-section .section-title {
+    margin-bottom: 4.6rem; }
+  .services-section .services-item {
+    display: flex;
+    flex-direction: row; }
+    .services-section .services-item .row {
+      margin: 0; }
+    .services-section .services-item .services-contain {
+      padding: 5rem 9.5rem;
+      background-color: #F5F5F5; }
+      @media (min-width: 992px) {
+        .services-section .services-item .services-contain {
+          padding: 14.3rem 9.5rem 9.5rem; } }
+      .services-section .services-item .services-contain h2, .services-section .services-item .services-contain .h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase; }
+        @media (min-width: 1200px) {
+          .services-section .services-item .services-contain h2, .services-section .services-item .services-contain .h2 {
+            font-size: 3.6rem;
+            line-height: 4.4rem;
+            margin-bottom: 3.6rem; } }
+        .services-section .services-item .services-contain h2 a, .services-section .services-item .services-contain .h2 a {
+          color: #1E1E1E;
+          width: 100%;
+          max-width: 36.8rem; }
+    .services-section .services-item .btn:hover {
+      background-color: #565960;
+      color: #ECD9D9; }
+    .services-section .services-item:nth-of-type(2n) .services-contain {
+      background-color: #ECD9D9; }
+      @media (min-width: 768px) {
+        .services-section .services-item:nth-of-type(2n) .services-contain {
+          order: 1 !important; } }
+    .services-section .services-item .services-img {
+      padding: 0; }
+      @media (min-width: 768px) {
+        .services-section .services-item .services-img {
+          order: 1 !important; } }
+    @media (min-width: 768px) {
+      .services-section .services-item:nth-of-type(2n) .services-img {
+        order: 0 !important; } }
+
+.single-services {
+  padding: 5rem 1rem; }
+  @media (min-width: 992px) {
+    .single-services {
+      padding: 17rem 0 18.1rem; } }
+  .single-services h2, .single-services .h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 4rem;
+    text-align: left;
+    color: #1E1E1E;
+    width: 100%;
+    max-width: 43.2rem;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem; }
+    @media (min-width: 1200px) {
+      .single-services h2, .single-services .h2 {
+        font-size: 4.4rem;
+        line-height: 5rem; } }
+  .single-services p {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    text-align: left; }
+
+@media (min-width: 992px) {
+  .service-latest-news {
+    padding: 0 0 13.5rem; } }
+
+.service-latest-news .section-title {
+  margin-bottom: 1.6rem; }
+  @media (min-width: 992px) {
+    .service-latest-news .section-title {
+      margin-bottom: 4.9rem; } }
+
+.service-latest-news .news-item div {
+  background-color: #fff;
+  width: 90%;
+  height: 16.1rem;
+  max-width: 31.3rem;
+  padding: 22px 18px 57px 19px;
+  text-align: center;
+  margin-inline: auto;
+  margin-top: -22%;
+  position: relative;
+  z-index: 9999; }
+  .service-latest-news .news-item div p {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-family: "Bodoni";
+    font-style: italic;
+    width: 8.1rem;
+    margin-bottom: 1.7rem;
+    display: inline-block; }
+  .service-latest-news .news-item div h2, .service-latest-news .news-item div .h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    width: 100%;
+    max-width: 27.6rem;
+    text-transform: uppercase; }
+    .service-latest-news .news-item div h2 a, .service-latest-news .news-item div .h2 a {
+      color: #1E1E1E !important;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
+
+.contact-section {
+  padding: 50px 0; }
+  @media (min-width: 992px) {
+    .contact-section {
+      padding: 104px 0 110px; } }
+  .contact-section .contact-wrapper {
+    position: relative; }
+    @media (min-width: 992px) {
+      .contact-section .contact-wrapper .row > div:nth-of-type(2n) {
+        flex: 0 0 50%;
+        width: 50%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        overflow: hidden;
+        padding-left: 11rem; } }
+  .contact-section .contact-form-title {
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+    margin-bottom: 1.1rem;
+    width: 100%;
+    max-width: 50rem;
+    text-transform: uppercase;
+    font-family: "Bodoni";
+    letter-spacing: 0.5rem; }
+    @media (min-width: 992px) {
+      .contact-section .contact-form-title {
+        font-size: 3rem;
+        line-height: 4.5rem; } }
+  .contact-section .form-group button {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    border: 1px solid #1E1E1E;
+    border-radius: 0.3rem; }
+    .contact-section .form-group button:hover {
+      background-color: #ECD9D9; }
+  .contact-section .form-control {
+    background-color: rgba(37, 61, 97, 0.02);
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    resize: none; }
+  .contact-section ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-weight: 300;
+    letter-spacing: -0.023rem;
+    text-align: left;
+    color: #a4a4a4; }
+  .contact-section :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-weight: 300;
+    letter-spacing: -0.023rem;
+    text-align: left;
+    color: #a4a4a4; }
+  .contact-section ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-weight: 300;
+    letter-spacing: -0.023rem;
+    text-align: left;
+    color: #a4a4a4; }
+
+.company-info {
+  padding: 4rem 0rem;
+  font-size: 2.4rem;
+  line-height: 2.5rem; }
+  @media (min-width: 992px) {
+    .company-info {
+      padding: 6.3rem 0 6rem;
+      margin-bottom: 4.6rem; } }
+  .company-info .company-info-item {
+    color: #766d6d; }
+
+.section-404 {
+  padding: 15rem 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 4.9rem; }
+  @media (min-width: 992px) {
+    .section-404 {
+      padding: 27.8rem 0; } }
+  .section-404 h2, .section-404 .h2 {
+    width: 100%;
+    max-width: 70.4rem;
+    margin-bottom: 3.2rem;
+    line-height: 8.4rem !important; }
+  .section-404 a {
+    border: 1px solid #fff;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto; }
 
 footer {
   padding: 4.6rem 0 2.5rem;
